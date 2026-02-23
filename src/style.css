@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+canvas {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  position: relative;
+  overflow: none;
+}
+
+#text {
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+
+a {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 12;
+}
+
+#info {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-family: Arial;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
